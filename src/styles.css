@@ -1,0 +1,56 @@
+body {
+  width: 100%;
+  min-width: 1000px;
+  height: auto;
+}
+.container {
+  display: auto 0;
+  margin: auto;
+}
+
+.background {
+  display: block;
+  background: white;
+  border-radius: 30px;
+  border: 1px solid white;
+  padding: 40px;
+  margin: 100px auto;
+  width: 600px;
+  height: 500px;
+  font-family: "Courier New", Courier, monospace;
+}
+.card-1 {
+  width: 100%;
+  min-width: 1000px;
+  height: auto;
+  text-align: center;
+  background: linear-gradient(
+    135deg,
+    rgb(255, 168, 168) 10%,
+    rgb(252, 255, 0) 100%
+  );
+
+  margin: 10px;
+  width: fit-content;
+}
+h1,
+h2,
+h5 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bolder;
+  color: #2c2d34;
+}
+.wrap1 .row-one {
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+}
+
+.row-two {
+  font-size: larger;
+  font-family: "Dosis", sans-serif;
+  font-weight: 300;
+}
+.row-three {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: lighter;
+}
