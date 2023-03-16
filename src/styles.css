@@ -1,7 +1,13 @@
 body {
-  width: 100%;
-  min-width: 1000px;
-  height: auto;
+  font-family: arial, sans-serif;
+}
+
+h1 {
+  color: #878787;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
 }
 .container {
   display: auto 0;
@@ -33,7 +39,6 @@ body {
   margin: 10px;
   width: fit-content;
 }
-h1,
 h2,
 h5 {
   font-family: "Roboto Condensed", sans-serif;
