@@ -12,6 +12,11 @@ h1 {
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
+  background: linear-gradient(
+    90deg,
+    rgb(115, 242, 252) 0%,
+    rgb(159, 151, 238) 100%
+  );
 }
 
 .weather-app {
@@ -35,11 +40,6 @@ h1 {
   min-width: 1000px;
   height: auto;
   text-align: center;
-  background: linear-gradient(
-    135deg,
-    rgb(255, 168, 168) 10%,
-    rgb(252, 255, 0) 100%
-  );
 
   margin: 10px;
   width: fit-content;
