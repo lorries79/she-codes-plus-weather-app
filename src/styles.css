@@ -9,11 +9,16 @@ h1 {
   line-height: 28px;
   margin-bottom: 0;
 }
-.container {
-  display: auto 0;
-  margin: auto;
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
 }
 
+.weather-app {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
 .background {
   display: block;
   background: white;
