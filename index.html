@@ -43,21 +43,23 @@
               </div>
             </form>
           </div>
-
-          <div class="row top-row">
-            <div class="col date-time">
-              Wed, Jan 31<br />
-              16:03
+          <div class="overview">
+            <h1 id="city"></h1>
+            <ul>
+              <li>Last updated: <span id="date"></span></li>
+              <li id="description"></li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="clearfix weather-temperature">
+                <img src="" alt="Clear" id="icon" class="float-left" />
+                <div class="float-left">
+                  <strong id="temperature"></strong
+                  ><span class="units"> °C</span>
+                </div>
+              </div>
             </div>
-
-            <h5>Madrid</h5>
-            <p class="card-text">Current Temperature 15ºC</p>
-            <p>
-              Precipitation: 1%<br />
-              Humidity: 71%<br />
-              Wind: 16 km/h
-            </p>
-
             <h5 class="card-title">Upcoming Forecast</h5>
             <p class="card-text"></p>
             <div class="container text-center">
