@@ -42,7 +42,7 @@
             </form>
           </div>
           <div class="overview">
-            <h1 id="city">Madrid</h1>
+            <h1 id="city"></h1>
             <ul>
               <li>Last updated: <span id="date"></span></li>
               <li id="description"></li>
@@ -54,7 +54,9 @@
                 <img src="" alt="Clear" id="icon" class="float-left" />
                 <div class="float-left">
                   <strong id="temperature"></strong
-                  ><span class="units"> °C</span>
+                  ><span class="units"
+                    ><a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a></span>
                 </div>
               </div>
             </div>
@@ -65,7 +67,14 @@
               </ul>
             </div>
           </div>
-          <div class="weather-forecast" id="forecast"></div>
+             <small>
+          <a
+            href="https://github.com/lorries79/she-codes-plus-weather-app"
+            target="_blank"
+            >Open-source code</a
+          >
+          by Grace Louise 
+        </small>
       <script src="src/script.js"></script>
     </div>
   </body>
